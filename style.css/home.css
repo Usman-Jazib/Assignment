@@ -1,0 +1,12 @@
+body{
+  
+    background-image: linear-gradient(to right, #4b6cb7, #182848);
+
+}
+#inputSection{
+    max-width: 50%;
+    margin: auto;
+}
+#output{
+    min-height: 92px;
+}

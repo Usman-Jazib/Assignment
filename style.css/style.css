@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* background-image: url(../assets/images/Pinot\ Noir.jpg); */
+    background-image: linear-gradient(to right, #4b6cb7, #182848);
+}
+#loginSection{
+    min-height: fit-content;
+    max-width: 40%;
+  
+}
+
+#heading{
+    font-weight: 100;
+}
+
+#section{
+    margin-left: 20px;
+
+}
+
+#userName{
+    /* margin-left: 60px; */
+   background-color: rgb(56, 55, 55);
+   max-width: auto;
+    
+}
+#password{
+    max-width: auto;
+    background-color: rgb(56, 55, 55);
+}
+#email{
+    background-color: rgb(56, 55, 55);
+    max-width: auto;
+
+}
+#userName::placeholder{
+    color: white;
+    opacity: 0.75;
+    font-weight: 100;
+
+}
+
+#password::placeholder{
+    color: white;
+    opacity: 0.75;
+    font-weight: 100;
+
+}
+#email::placeholder{
+    color: white;
+    opacity: 0.75;
+    font-weight: 100;
+
+}
+#forgot{
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+
+    /* max-width: fit-content; */
+    
+}
+
+
